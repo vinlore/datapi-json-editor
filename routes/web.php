@@ -14,3 +14,8 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index');
+
+Route::get('/locations', 'LocationsController@index');
+Route::get('/locations/{id}', 'LocationsController@show');
+
+Route::get('/languages', 'LanguagesController@index');
