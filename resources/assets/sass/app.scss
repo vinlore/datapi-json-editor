@@ -7,31 +7,3 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
-.side-nav {
-    padding: 1em;
-    background-color: white;
-    border-radius: 5px;
-    width: 20%;
-    display: inline-block;
-    float: left;
-}
-
-.side-nav .card {
-    padding: 0.5em;
-    box-shadow: 0 0 1px rgba(0,0,0,0.3)
-}
-
-.side-nav .card a {
-    text-decoration: none;
-    color: #333;
-}
-
-.side-nav .card:not(:last-of-type) {
-    margin-bottom: 0.5em;
-}
-
-#locations #location {
-    width: 80%;
-    float: left;
-}
